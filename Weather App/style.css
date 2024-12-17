@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#box1{
+    font-size: 3rem;
+    border: solid rgb(142, 137, 131);
+    width: 400px;
+    height: 540px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    box-shadow: 2px 2px 5px rgba(142, 138, 138, 0.412);
+}
+
+#input{
+    margin-top: 50px;
+}
+
+#inputbox{
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 5px ;
+    margin: 10px;
+}
+
+#weatherform button{
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 10px;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+button:active{
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+#city{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#temperature{
+    font-size: 2.5rem;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#humidity{
+    margin-top: 40px;
+    font-size: 2rem;
+    font-style: oblique;
+}
+
+#sky{
+    margin-top: 40px;
+    font-size: 2rem;
+    font-style: oblique;
+}
+
+#box1 img{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+
+#error{
+    color: white;
+    font-size: 2rem;
+    margin-top: 30px;
+}

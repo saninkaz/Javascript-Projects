@@ -1,0 +1,25 @@
+#timer{
+    font-size: 5em;
+    font-family: monospace;
+    text-align: center;
+    color: aliceblue;
+    backdrop-filter: blur(20px);
+}
+
+
+#div1{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+body{
+    background-image: url(bgm4.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin: 0;
+}
+
+
